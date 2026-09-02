@@ -1,0 +1,2 @@
+# Never serve media files directly from the web server.
+Require all denied
