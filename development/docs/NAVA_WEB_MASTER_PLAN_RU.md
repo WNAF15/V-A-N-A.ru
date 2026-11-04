@@ -153,4 +153,4 @@ NAVA Web — самостоятельная веб-подсистема экос
 | Игнорирование секретов/runtime media | `43899a5f1d19d074b11d413004571cebfa0d3bca` |
 | Bootstrap env и fail-closed DB config | `7ad44fecea1719ce40518a8b4e04db90faafe5d0` |
 
-**Текущий HEAD ветки:** `7ad44fecea1719ce40518a8b4e04db90faafe5d0`
+**Текущий HEAD ветки перед фиксацией этого обновления:** `dd64f8e9348c4c8cd30db32a387f11d2fdd7bc8a`
