@@ -1,8 +1,12 @@
 <?php
 
+/**
+ * Database credentials must be supplied by the hosting environment or
+ * the private project-root .env file. Never commit production credentials.
+ */
 return [
-    'host'     => 'localhost',      // обычно localhost
-    'dbname'   => 'u3602272_NAVA',
-    'user'     => 'u3602272_WNAF15',
-    'password' => 'WNAF.30.06.2011',
+    'host' => (string)(getenv('DB_HOST') ?: ''),
+    'dbname' => (string)(getenv('DB_NAME') ?: ''),
+    'user' => (string)(getenv('DB_USER') ?: ''),
+    'password' => (string)(getenv('DB_PASSWORD') ?: ''),
 ];
